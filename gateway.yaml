@@ -10,7 +10,7 @@ eureka:
     hostname: localhost
   client:
     serviceUrl:
-      defaultZone: http://discUser:discPassword@localhost:8082/eureka/
+      defaultZone: http://discUser:discPassword@localhost:8080/eureka/
     register-with-eureka: true
     fetch-registry: true
     region: default
