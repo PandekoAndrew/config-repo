@@ -23,7 +23,6 @@ zuul:
       path: /social/**
     file-service:
       path: /file-service/**
-      url: localhost:8083/
 
 hystrix:
   command:
