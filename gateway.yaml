@@ -21,8 +21,8 @@ zuul:
   routes:
     social:
       path: /social/**
-    file-service:
-      path: /file-service/**
+    fileservice:
+      path: /fileservice/**
 
 hystrix:
   command:
