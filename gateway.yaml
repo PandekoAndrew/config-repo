@@ -24,3 +24,11 @@ zuul:
     file-service:
       path: /file-service/**
       url: localhost:8083/
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
