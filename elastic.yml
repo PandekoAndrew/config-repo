@@ -7,6 +7,6 @@ server:
 
 spring:
   application:
-    name: elastic
+    name: elasticsearch
 #start elasticsearch with this script :
 #elasticsearch -E cluster.name=socnet -E node.name=socnet_node
