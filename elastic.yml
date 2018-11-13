@@ -4,5 +4,6 @@ elasticsearch:
     name: socnet
 server:
   port: 8084
-#start elasticsearch with this script :
-#elasticsearch -E cluster.name=socnet -E node.name=socnet_node
+spring:
+  application:
+    name: elasticsearch
