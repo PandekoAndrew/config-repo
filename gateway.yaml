@@ -23,6 +23,8 @@ zuul:
       path: /social/**
     file-service:
       path: /file-service/**
+    elastic:
+      path: /elasticsearch/**
 
 hystrix:
   command:
