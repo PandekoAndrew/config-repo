@@ -1,12 +1,8 @@
-elasticsearch:
-  home: C:\Program Files\Elastic\Elasticsearch
-  cluster:
-    name: socnet
 server:
   port: 8084
 spring:
   application:
-    name: elasticsearch
+    name: elastic
 elastic:
   host: localhost
   port: 9200
