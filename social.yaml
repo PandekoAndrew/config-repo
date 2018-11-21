@@ -16,6 +16,18 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL57Dialect
+  rabbitmq:
+    host: 172.17.0.1
+    port: 5673
+    username: guest
+    password: guest
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: posts
+      default:
+       contentType: application/json
 
 eldest:
   date:
